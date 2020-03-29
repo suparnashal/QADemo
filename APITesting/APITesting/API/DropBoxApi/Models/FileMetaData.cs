@@ -12,8 +12,8 @@ namespace APITesting.API.DropBoxApi.Models
         [DeserializeAs(Name = ".tag")]
         public string tag { get; set; }
         public int size { get; set; }
-        public bool is_downloadable { get; set; }
-
+        public bool is_downloadable { get; set; }    
+        public string name { get; set; } 
     }
 }
     
